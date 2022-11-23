@@ -11,6 +11,10 @@
     <title>Ateso</title>
 </head>
 <style>
+    html, body {
+        height: 100%;
+    }
+
     body{
         background-color: #27282c;
         font-family: JetBrains Sans,Helvetica,Arial,sans-serif;
@@ -31,20 +35,20 @@
         transition-duration: 1s;
     }
 
+    a:hover{
+        color: #0082fe;
+        text-decoration: none;
+    }
+
     .line{
         background: none;
         background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(255,255,255,1) 54%, rgba(0,212,255,0) 100%);
         height: 1px;
     }
 
-    a:hover{
-        color: #0082fe;
-        text-decoration: none;
-    }
-
     .fwh-container{
-        height: 100vh;
-        width: 100vw;
+        height: 100%;
+        width: 100%;
     }
 
     .logo-container{
